@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://cdn.tailwindcss.com"></script>
+                <link rel="stylesheet" href="style.css">
+                        <script src="script.js"></script>
+
+
+    <title>Vendor Dashboard</title>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+</head>
+
+
+<body>
+  <div style=" background: linear-gradient(
+    to bottom,
+    #ffffff 93%,
+    #ffffff 35%,
+    #f5fbff 100%
+  ); " >
+
+<header id="navbar" class="sticky top-0 z-50 bg-white/80 backdrop-blur">
+  <nav
+    class="max-w-[1330px] mx-auto flex items-center justify-between px-4 sm:px-6 md:px-8 lg:px-10 py-4"
+  >
+    <!-- Hamburger (mobile/tablet only) -->
+    <button
+      id="menuBtn"
+      class="md:hidden text-3xl font-bold"
+      aria-label="Toggle Menu"
+    >
+      ☰
+    </button>
+
+    <!-- LOGO -->
+  <div id="logo" class="font-semibold text-lg">
+           <a href="index.html"target="_blank"rel="noopener noreferrer">
+           <img src="asset/meet-logo.svg" class="max-w-[80%]">
+           </a>
+    </div>
+
+    <!-- Desktop Menu (unchanged) -->
+        <ul class="hidden md:flex items-center gap-8 text-xl font-semibold">
+      <a href="index.html" target="_blank"rel="noopener noreferrer"><li>Home</li></a>
+      <a href="my-works.html"target="_blank" rel="noopener noreferrer"><li>Work</li></a>
+     <a href="contact.html"target="_blank"rel="noopener noreferrer"> <li>Contact</li></a> 
+</ul>
+    <!-- Contact Button -->
+  <a href="asset/Meet_Goswami_Resume.pdf" target="_blank" rel="noopener noreferrer">
+    <button id="contactBtn" class=" py-2 text-sm sm:px-5 sm:py-2.5 sm:text-base lg:px-6 lg:py-3
+                         rounded-full bg-[#1e0e8c] text-white">
+            Download CV
+          </button>
+   </a>
+  </nav>
+</header>
+
+<!-- Overlay Menu -->
+<div
+  id="mobileMenu"
+  class="fixed inset-0 z-50 hidden bg-black/70 backdrop-blur-sm"
+>
+  <div class="relative h-full w-full bg-white flex flex-col items-center justify-center gap-10 text-2xl font-semibold">
+    <button
+      id="closeBtn"
+      class="absolute top-6 left-4 text-3xl font-bold"
+    >
+      ✕
+    </button>
+
+    <ul class="hidden md:flex items-center gap-8 text-xl font-semibold">
+      <li>Home</li>
+      <a href="my-works.html"target="_blank"
+  rel="noopener noreferrer"><li>Work</li></a>
+     
+     <a href="contact.html"target="_blank"
+  rel="noopener noreferrer">
+      <li>Contact</li>
+     </a> 
+    </ul>
+  </div>
+</div>
+
+
+<section class="hero  max-w-[1400px] mx-auto ">
+    <div class="contar mt-16">
+
+      <!-- <p class="eyebrow">Dashboard APP</p> -->
+
+      <h1 style="font-size: 32px; font-weight: 700;">
+Vendor Dashboard
+      </h1>
+
+      <div class="meta ">
+        <div>
+          <span>Company</span>
+          <p>Global Garner</p>
+        </div>
+        <div>
+          <span>Role</span>
+          <p>UI/UX Designer</p>
+        </div>
+        <div>
+          <span>Year</span>
+          <p>2024</p>
+        </div>
+      </div>
+
+      <div class="image-wrap">
+        <img src="asset/vendor-display.png" alt="App Screens" / class="!max-w-[80%]" alt="App Screens"  style="padding: 94px 0px 0px;">
+      </div> 
+
+
+      </section>
+  
+<!-- PROJECT DESCRIPTION PROJECT DESCRIPTION PROJECT DESCRIPTION -->
+
+  <section class="project-description max-w-[1400px] mx-auto">
+  <div class="contar">
+
+    <h2>Project Overview</h2>
+
+    <p class="intro mt-2">
+Vendor Management Dashboard is a comprehensive web-based platform designed to help vendors efficiently manage their end-to-end business operations from a single interface. The dashboard enables vendors to handle product and service listings, orders, inventory, digital vouchers, commissions, wallet payouts, customer support, and compliance workflows.
+<br> <br>
+
+The system is built for scalability, supporting both physical and digital products, service-based offerings, complex commission structures, voucher redemption flows, and approval-based processes. The goal was to reduce operational friction for vendors while maintaining clarity, control, and transparency across all business activities.
+  </div>
+
+
+
+   
+
+<!-- SOLUTION SOLUTION SOLUTION -->
+
+  <div class="contar">
+
+   <h2 class="mt-10">Project Goals</h2>
+
+
+    <p class="intro mt-2 text-[20px]">
+<!-- The redesigned landing page focuses on clarity, structure, and usability: -->
+
+<li class="text-[18px]">Enable vendors to manage products, services, and categories with minimal effort.</li>
+<li class="text-[18px]">Provide clear visibility into orders, commissions, earnings, and payouts.</li>
+<li class="text-[18px]">Simplify inventory and digital voucher management, including redemption tracking.</li>
+<li class="text-[18px]">Create a structured flow for bill review, approvals, and commission invoices.</li>
+<li class="text-[18px]">Improve vendor confidence through transparent wallet management and status tracking.</li>
+<li class="text-[18px]">Design a dashboard that remains usable and readable even with large datasets.</li>
+<li class="text-[18px]">Ensure the interface supports business-critical actions with low error risk.</li>
+    </p>
+  </div>
+
+
+
+   <div class="contar">
+
+   <h2 class="mt-10">Design Approach</h2>
+
+    <p class="intro mt-2 text-[20px]">
+
+
+      
+<li class="text-[18px]">Designed specifically for vendors who manage daily operations, prioritizing clarity, efficiency, and task completion over visual noise.</li>
+<li class="text-[18px]">Created reusable patterns for tables, forms, status tags, filters, and action states to maintain consistency across a large product ecosystem.</li>
+<li class="text-[18px]">Focused on readability for dense information using clear typography, spacing, hierarchy, and color-coded statuses for quick scanning.</li>
+<li class="text-[18px]">Primary actions (Add, Approve, Redeem, Withdraw, Export) are always easy to find, reducing cognitive load and navigation time.</li>
+<li class="text-[18px]">Designed interfaces around real operational rules such as approval flows, commission percentages, redemption states, payout statuses, and validations.</li>
+<li class="text-[18px]">Complex workflows (orders, vouchers, commissions, tickets) are broken into manageable views to avoid overwhelming users.</li>
+<li class="text-[18px]">Maintained a consistent design language while allowing flexibility for different modules like Inventory, Wallet, Support Tickets, and Digital Vouchers.</li>
+
+
+
+</p>
+  </div>
+</section>
+
+
+
+<!-- SCREENSHOT IMAGES SCREENSHOT IMAGES SCREENSHOT IMAGES -->
+
+
+<section class="slider-wrapper max-w-[1330px]">
+  <button class="nav prev" id="prev">&#10094;</button>
+
+  <div class="slider" id="slider">
+    <div class="card card-desktop purple ">
+      <h6>HOME PAGE</h6>
+      <p>A centralized home page that gives vendors real-time insights into orders, earnings, and performance.</p>
+      <img src="asset/vendor-display.png" />
+    </div>
+
+    <div class="card card-desktop  peach">
+      <h6>BILL REVIEW & APPROVAL</h6>
+      <p>Review uploaded bills, verify details, and accept or reject submissions before final processing</p>
+      <img src="asset/bill-review-web.png" />
+    </div>
+
+    
+    <div class="card card-desktop  peach">
+      <h6>COMMISSION INVOICE MANAGEMENT</h6>
+      <p>View, track, and pay commission invoices with clear status and detailed billing information.</p>
+      <img src="asset/commission-invoice-web.png" />
+    </div>
+    
+    <div class="card card-desktop  lavender">
+      <h6>COMMISSION INVOICE DETAILS</h6>
+      <p>View a detailed breakdown of bills, commission percentages, taxes, and final payout information.</p>
+      <img src="asset/commission-invoice-details-web.png" />
+    </div>
+
+       
+    <div class="card card-desktop  lavender">
+      <h6>VOUCHER VERIFICATION & REDEMPTION</h6>
+      <p>Verify voucher validity, view details, and securely redeem vouchers using OTP authentication.</p>
+      <img src="asset/redeem_voucher.png" />
+    </div>
+
+       
+    <div class="card card-desktop  lavender">
+      <h6>WALLET MANAGEMENT</h6>
+      <p>Monitor wallet balance, track transactions, and manage withdrawals from a single dashboard.</p>
+      <img src="asset/wallet_web.png" />
+    </div>
+
+       
+    <div class="card card-desktop  lavender">
+      <h6>INVENTORY MANAGEMENT</h6>
+      <p>Track product stock, manage variants, and update quantities in real time from a single view.</p>
+      <img src="asset/inventory_web.png" />
+    </div>
+
+
+       
+    <div class="card card-desktop  lavender">
+      <h6>SERVICE BOOKING MANAGEMENT</h6>
+      <p>View, accept, or reject service bookings while tracking customer details and booking status.</p>
+      <img src="asset/service_booking_vendor.png" />
+    </div>
+  </div>
+
+<button class="nav next" id="next">&#10095;</button>
+</section>
+</div>
+
+
+</body>
+</html>
+ 
+
+<!-- FOOTER FOOTER FOOTER FOOTER FOOTER  -->
+
+
+ <section class="max-w-[1330px] m-auto mt-32 mb-10 flex flex-col justify-between">
+
+    <!-- Center Content -->
+    <div class="flex flex-col items-center justify-center text-center px-6 flex-1">
+      
+      <p class="text-xl tracking-wide text-gray-600">
+        Let's Build Something Together
+      </p>
+
+      <h1 class="text-[32px] sm:text-[40px] md:text-[48px] font-semibold mb-10 break-all">
+        meetgoswami842@gmail.com
+      </h1>
+
+      <div class="flex gap-4">
+        <a
+          href="https://www.linkedin.com/in/meet-goswami-b54562143" target="_blank"
+  rel="noopener noreferrer"
+          class="flex items-center gap-1 px-4 py-3 rounded-full border border-gray-300 text-md font-medium hover:bg-gray-100 transition"
+        >
+          LinkedIn 
+                    <img src="asset/arrow.svg " class="w-5 h-5">
+
+        </a>
+
+        <a
+          href="mailto:meetgoswami842@gmail.com"
+          class="flex items-center gap-1 px-6 py-3 rounded-full border border-gray-300 text-md font-medium hover:bg-gray-100 transition" 
+        >
+          Email
+          <img src="asset/arrow.svg " class="w-5 h-5">
+        </a>
+      </div>
+
+    </div>
+
+  </section>
+
+
+

@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://cdn.tailwindcss.com"></script>
+                <link rel="stylesheet" href="style.css">
+                                 <!-- <script src="script.js"></script> -->
+
+
+    <title>Vendor App</title>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+</head>
+
+
+<body>
+  <div style=" background: linear-gradient(
+    to bottom,
+    #ffffff 93%,
+    #ffffff 35%,
+    #f5fbff 100%
+  ); " >
+<header id="navbar" class="sticky top-0 z-50 bg-white/80 backdrop-blur">
+  <nav
+    class="max-w-[1330px] mx-auto flex items-center justify-between px-4 sm:px-6 md:px-8 lg:px-10 py-4"
+  >
+    <!-- Hamburger (mobile/tablet only) -->
+    <button
+      id="menuBtn"
+      class="md:hidden text-3xl font-bold"
+      aria-label="Toggle Menu"
+    >
+      ☰
+    </button>
+
+    <!-- LOGO -->
+  <div id="logo" class="font-semibold text-lg">
+           <a href="index.html">
+           <img src="asset/meet-logo.svg" class="max-w-[80%]">
+           </a>
+    </div>
+
+    <!-- Desktop Menu (unchanged) -->
+        <ul class="hidden md:flex items-center gap-8 text-xl font-semibold">
+      <a href="index.html" target="_blank"rel="noopener noreferrer"><li>Home</li></a>
+      <a href="my-works.html"target="_blank" rel="noopener noreferrer"><li>Work</li></a>
+     <a href="contact.html"target="_blank"rel="noopener noreferrer"> <li>Contact</li></a> 
+</ul>
+    <!-- Contact Button -->
+  <a href="asset/Meet_Goswami_Resume.pdf" target="_blank" rel="noopener noreferrer">
+    <button id="contactBtn" class=" py-2 text-sm sm:px-5 sm:py-2.5 sm:text-base lg:px-6 lg:py-3
+                         rounded-full bg-[#1e0e8c] text-white">
+            Download CV
+          </button>
+   </a>
+  </nav>
+</header>
+
+<!-- Overlay Menu -->
+<div
+  id="mobileMenu"
+  class="fixed inset-0 z-50 hidden bg-black/70 backdrop-blur-sm"
+>
+  <div class="relative h-full w-full bg-white flex flex-col items-center justify-center gap-10 text-2xl font-semibold">
+    <button
+      id="closeBtn"
+      class="absolute top-6 left-4 text-3xl font-bold"
+    >
+      ✕
+    </button>
+
+    <a href="my-works.html"target="_blank"
+  rel="noopener noreferrer">Work</a>
+    <a href="#">Skills & Tools</a>
+    <a href="#">About</a>
+  </div>
+</div>
+
+
+<section class="hero  max-w-[1400px] mx-auto ">
+    <div class="contar mt-16">
+
+      <!-- <p class="eyebrow">Dashboard APP</p> -->
+
+      <h1 style="font-size: 32px; font-weight: 700;">
+        Global Garner Vendor Dashboard App<br />
+      </h1>
+
+      <div class="meta ">
+        <div>
+          <span>Company</span>
+          <p>Global Garner</p>
+        </div>
+        <div>
+          <span>Role</span>
+          <p>UI/UX Designer</p>
+        </div>
+        <!-- <div>
+          <span>Category</span>
+          <p>UI/ Design</p>
+        </div> -->
+        <div>
+          <span>Year</span>
+          <p>2025</p>
+        </div>
+      </div>
+
+      <div class="image-wrap">
+        <img src="asset/Desktop - 1.png" alt="App Screens" />
+      </div> 
+       <!-- <div class="image-wrap">
+        <img src="asset/desktop.jpg" alt="App Screens" />
+      </div>  -->
+
+
+      </section>
+  
+<!-- PROJECT DESCRIPTION PROJECT DESCRIPTION PROJECT DESCRIPTION -->
+
+  <section class="project-description max-w-[1400px] mx-auto">
+  <div class="contar">
+
+    <h2>Project Overview</h2>
+
+    <p class="intro mt-2">
+This project is a mobile app redesign for a vendor management platform used to handle orders, bill reviews, commission invoices, wallet transactions, and account management.
+    </p>
+
+  </div>
+
+<!-- PROCESS PROCESS PROCESS -->
+
+  <div class="contar">
+
+ <h2 class="mt-10">Problem Statement</h2>
+
+    <p class="intro mt-2">
+<li class="text-[18px]">Overloaded screens with poor visual hierarchy.</li>
+<li class="text-[18px]">Complex financial information (bills, commissions, wallet) was difficult to understand.</li>
+<li class="text-[18px]">Important actions (Approve, Dispatch, Pay, Withdraw) were hard to notice.</li>
+<li class="text-[18px]">Too many steps required to complete common tasks.</li>
+<li class="text-[18px]">Inconsistent spacing, typography, and component styles.</li>
+<li class="text-[18px]">Limited clarity in order tracking, bill status, and payment flow.</li>
+</p>
+  </div>
+  
+ 
+
+<!-- SOLUTION SOLUTION SOLUTION -->
+
+  <div class="contar">
+
+   <h2 class="mt-10">Project Goals</h2>
+
+    <p class="intro mt-2">
+<li class="text-[18px]">Simplify complex vendor workflows into clear, step-by-step experiences.</li>
+<li class="text-[18px]">Improve readability and visual hierarchy across all screens.</li>
+<li class="text-[18px]">Make key actions easy to find and faster to complete.</li>
+<li class="text-[18px]">Enhance transparency for orders, bills, commissions, and wallet activity.</li>
+</p>
+
+  </div>
+
+
+
+   <div class="contar">
+
+   <h2 class="mt-10">The Solution</h2>
+
+    <p class="intro mt-2">
+      <li class="text-[18px]">Introduced clear card-based layouts for orders, bills, and invoices.</li>
+<li class="text-[18px]">Improved status visibility using consistent color coding (Pending, Approved, Rejected, Paid).</li>
+<li class="text-[18px]">Standardized typography, spacing, buttons, and icons for UI consistency.</li>
+<li class="text-[18px]">Improved navigation clarity across Orders, Bills, Wallet, and Account sections.</li>
+</p>
+  </div>
+</section>
+
+
+
+<!-- SCREENSHOT IMAGES SCREENSHOT IMAGES SCREENSHOT IMAGES -->
+
+
+<section class="slider-wrapper max-w-[1330px]">
+  <button class="nav prev" id="prev">&#10094;</button>
+
+  <div class="slider" id="slider">
+    <div class="card purple">
+      <h6>HOME PAGE</h6>
+      <p>AI algorithms analyze preferences to create optimized schedules.</p>
+      <img src="asset/home.png" />
+    </div>
+
+    <div class="card peach">
+      <h6>ORDER MANAGEMENT</h6>
+      <p>Track and manage all orders easily.</p>
+      <img src="asset/order.png" />
+    </div>
+
+    
+    <div class="card peach">
+      <h6>ORDER DETAILS</h6>
+      <p>View order info, status, and actions.</p>
+      <img src="asset/order-details.png" />
+    </div>
+    
+    <div class="card lavender">
+      <h6>VENDOR DETAILS</h6>
+      <p>View store information, services, and other details </p>
+      <img src="asset/store-detail.png" />
+    </div>
+
+
+    <div class="card lavender">
+      <h6>ACCOUNT OVERVIEW</h6>
+      <p>Profile details, QR payments, and wallet.</p>
+      <img src="asset/my-account.png" />
+    </div>
+
+    <div class="card lavender">
+      <h6>BILL REVIEW</h6>
+      <p>Review, accept, or reject submitted bills</p>
+      <img src="asset/vendor-bill_review.png" />
+    </div>
+
+
+     <div class="card lavender">
+      <h6>WALLET MANAGEMENT</h6>
+      <p>rack earnings, transactions, and withdrawals</p>
+      <img src="asset/wallet.png" />
+    </div>
+
+
+      <div class="card lavender">
+      <h6>COMMISSION INVOICES</h6>
+      <p>View, pay, and download commission invoices</p>
+      <img src="asset/commission-invoice.png" />
+    </div>
+
+    
+      <div class="card lavender">
+      <h6>INVOICES DETAILS</h6>
+      <p>View invoice details and pay commission.</p>
+      <img src="asset/invoice-details.png" />
+    </div>
+
+       <div class="card lavender">
+      <h6>SUPPORT CENTER</h6>
+      <p>FAQs, calls, and support tickets.</p>
+      <img src="asset/help-support.png" />
+    </div>
+  </div>
+
+<button class="nav next" id="next">&#10095;</button>
+</section>
+</div>
+
+
+
+
+
+</body>
+</html>
+ 
+
+<!-- FOOTER FOOTER FOOTER FOOTER FOOTER  -->
+
+
+
+ 
+
+ <section class="max-w-full m-auto mt-32 mb-10 flex flex-col justify-between" style=" padding: 20px;">
+
+    <!-- Center Content -->
+      <div class="flex flex-col items-center justify-center text-center px-6 flex-1">
+      
+      <p class="text-xl tracking-wide text-gray-600">
+        Let's Build Something Together
+      </p>
+
+      <h1 class="text-[32px] sm:text-[40px] md:text-[48px] font-semibold mb-10 break-all">
+        meetgoswami842@gmail.com
+      </h1>
+
+      <div class="flex gap-4">
+        <a
+          href="https://www.linkedin.com/in/meet-goswami-b54562143" target="_blank"
+  rel="noopener noreferrer"
+          class="flex items-center gap-1 px-6 py-3 rounded-full border border-gray-300 text-md font-medium hover:bg-gray-100 transition"
+        >
+          LinkedIn 
+                    <img src="asset/arrow.svg " class="w-5 h-5">
+
+        </a>
+
+        <a
+          href="mailto:meetgoswami842@gmail.com"
+          class="flex items-center gap-1 px-6 py-3 rounded-full border border-gray-300 text-md font-medium hover:bg-gray-100 transition" 
+        >
+          Email
+          <img src="asset/arrow.svg " class="w-5 h-5">
+        </a>
+      </div>
+
+    </div>
+
+  </section>
+
+  <script>
+document.addEventListener("DOMContentLoaded", () => {
+  const slider = document.getElementById("slider");
+  const next = document.getElementById("next");
+  const prev = document.getElementById("prev");
+
+  let translateX = 0;
+
+  function getValues() {
+    const cardWidth = slider.children[0].offsetWidth + 24; // gap
+    const totalWidth = slider.scrollWidth;
+    const visibleWidth = slider.parentElement.offsetWidth;
+    const maxTranslate = totalWidth - visibleWidth;
+
+    return { cardWidth, maxTranslate };
+  }
+
+  next.addEventListener("click", () => {
+    const { cardWidth, maxTranslate } = getValues();
+
+    if (translateX >= maxTranslate) return; // 🚫 STOP — no blank space
+
+    translateX += cardWidth;
+    translateX = Math.min(translateX, maxTranslate);
+
+    slider.style.transform = `translateX(-${translateX}px)`;
+  });
+
+  prev.addEventListener("click", () => {
+    const { cardWidth } = getValues();
+
+    if (translateX <= 0) return;
+
+    translateX -= cardWidth;
+    translateX = Math.max(translateX, 0);
+
+    slider.style.transform = `translateX(-${translateX}px)`;
+  });
+});
+</script>

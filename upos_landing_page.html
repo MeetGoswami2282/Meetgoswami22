@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://cdn.tailwindcss.com"></script>
+                <link rel="stylesheet" href="style.css">
+                        <script src="script.js"></script>
+
+
+    <title>UPOS Landing Page</title>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+</head>
+
+
+<body>
+  <div style=" background: linear-gradient(
+    to bottom,
+    #ffffff 93%,
+    #ffffff 35%,
+    #f5fbff 100%
+  ); " >
+<header id="navbar" class="sticky top-0 z-50 bg-white/80 backdrop-blur">
+  <nav
+    class="max-w-[1330px] mx-auto flex items-center justify-between px-4 sm:px-6 md:px-8 lg:px-10 py-4"
+  >
+    <!-- Hamburger (mobile/tablet only) -->
+    <button
+      id="menuBtn"
+      class="md:hidden text-3xl font-bold"
+      aria-label="Toggle Menu"
+    >
+      ☰
+    </button>
+
+    <!-- LOGO -->
+  <div id="logo" class="font-semibold text-lg">
+           <a href="index.html"target="_blank"rel="noopener noreferrer">
+           <img src="asset/meet-logo.svg" class="max-w-[80%]">
+           </a>
+    </div>
+
+    <!-- Desktop Menu (unchanged) -->
+        <ul class="hidden md:flex items-center gap-8 text-xl font-semibold">
+      <a href="index.html" target="_blank"rel="noopener noreferrer"><li>Home</li></a>
+      <a href="my-works.html"target="_blank" rel="noopener noreferrer"><li>Work</li></a>
+     <a href="contact.html"target="_blank"rel="noopener noreferrer"> <li>Contact</li></a> 
+</ul>
+    <!-- Contact Button -->
+  <a href="asset/Meet_Goswami_Resume.pdf" target="_blank" rel="noopener noreferrer">
+    <button id="contactBtn" class=" py-2 text-sm sm:px-5 sm:py-2.5 sm:text-base lg:px-6 lg:py-3
+                         rounded-full bg-[#1e0e8c] text-white">
+            Download CV
+          </button>
+   </a>
+  </nav>
+</header>
+
+<!-- Overlay Menu -->
+<div
+  id="mobileMenu"
+  class="fixed inset-0 z-50 hidden bg-black/70 backdrop-blur-sm"
+>
+  <div class="relative h-full w-full bg-white flex flex-col items-center justify-center gap-10 text-2xl font-semibold">
+    <button
+      id="closeBtn"
+      class="absolute top-6 left-4 text-3xl font-bold"
+    >
+      ✕
+    </button>
+
+    <a href="my-works.html"target="_blank"
+  rel="noopener noreferrer">Work</a>
+    <a href="#">Skills & Tools</a>
+    <a href="#">About</a>
+  </div>
+</div>
+
+
+<section class="hero  max-w-[1400px] mx-auto ">
+    <div class="contar mt-16">
+
+      <!-- <p class="eyebrow">Dashboard APP</p> -->
+
+      <h1 style="font-size: 34px; font-weight: 700;">
+        Universal Point of Sale (UPOS)<br />
+      </h1>
+
+      <div class="meta ">
+        <div>
+          <span>Company</span>
+          <p>Global Garner</p>
+        </div>
+        <div>
+          <span>Role</span>
+          <p>UI/UX Designer</p>
+        </div>
+        <!-- <div>
+          <span>Category</span>
+          <p>UI/ Design</p>
+        </div> -->
+        <div>
+          <span>Year</span>
+          <p>2023</p>
+        </div>
+      </div>
+
+      <div class="image-wrap" style="  background: linear-gradient(180deg, #f4f0ff, #f8f6ff); ">
+        <img src="asset/Pro Display XDR.png" class="!max-w-[80%]" alt="App Screens"  style="padding: 94px 0px 0px;">
+      </div> 
+       <!-- <div class="image-wrap">
+        <img src="asset/desktop.jpg" alt="App Screens" />
+      </div>  -->
+
+
+      </section>
+  
+<!-- PROJECT DESCRIPTION PROJECT DESCRIPTION PROJECT DESCRIPTION -->
+
+  <section class="project-description max-w-[1400px] mx-auto">
+  <div class="contar">
+
+    <h2>Project Overview</h2>
+
+    <p class="intro mt-2">
+UPOS – The Digital Mall is a platform designed to help local business owners and entrepreneurs start and grow their business by selling products and services digitally. The project involved redesigning the existing landing page to improve clarity, usability, trust, and conversion.
+
+<br>
+The old design had valuable information but suffered from poor visual hierarchy, content overload, and weak user flow. The goal of the redesign was to transform it into a modern, conversion-focused, and easy-to-understand experience that clearly communicates UPOS’s value proposition and encourages users to take action.
+    </p>
+
+  </div>
+
+<!-- PROCESS PROCESS PROCESS -->
+
+  <div class="contar">
+
+ <h2 class="mt-10">Problem Statement</h2>
+
+    <p class="intro mt-2 text-[20px]">
+<li class="text-[18px]">Weak visual hierarchy, making it hard for users to understand what UPOS offers at first glance</li>
+<li class="text-[18px]"> Too much text with low scannability, increasing cognitive load</li>
+<li class="text-[18px]">Inconsistent spacing, alignment, and section structure</li>
+<li class="text-[18px]">Primary CTAs were not prominent enough, reducing conversions</li>
+<li class="text-[18px]">Lack of trust-building elements and clear benefit communication</li>
+<li class="text-[18px]">Poor content grouping, especially for features, plans, and earning flow</li>
+</p>
+  </div>
+  
+  <div class="contar"> 
+    <div class="image-wrap mt-22">
+        <img src="asset/upos-old.jpg" alt="App Screens" />
+      </div>
+    </div>
+
+   
+
+<!-- SOLUTION SOLUTION SOLUTION -->
+
+  <div class="contar">
+
+   <h2 class="mt-10">Project Goals</h2>
+
+    <p class="intro mt-2 text-[20px]">
+<!-- The redesigned landing page focuses on clarity, structure, and usability: -->
+
+<li class="text-[18px]">Introduced a strong hero section with a clear headline, supporting text, and primary CTA</li>
+<li class="text-[18px]">Reorganized content into logical sections (benefits, earning methods, plans, trust indicators)</li>
+<li class="text-[18px]">Improved typography, spacing, and alignment for better readability</li>
+<li class="text-[18px]">Used consistent visual styles and illustrations to guide user attention</li>
+<li class="text-[18px]">Highlighted key benefits and earning potential using bullet points and icons</li>
+<li class="text-[18px]">Made pricing plans easier to compare with clear differentiation</li>
+<li class="text-[18px]">Strengthened CTAs across the page to guide users toward trial and signup</li>
+  </div>
+
+
+
+   <div class="contar">
+
+   <h2 class="mt-10">The Solution</h2>
+
+    <p class="intro mt-2 text-[20px]">
+The redesigned landing page focuses on clarity, structure, and usability:
+
+<li  class="text-[18px]">Clearly communicate what UPOS is and how it benefits users</li>
+<li  class="text-[18px]">Improve first-impression clarity and reduce cognitive load</li>
+<li  class="text-[18px]">Create a strong visual hierarchy with clean layouts and spacing</li>
+<li  class="text-[18px]">Make the page scannable and conversion-friendly</li>
+<li  class="text-[18px]">Highlight earning opportunities, features, and plans more effectively</li>
+<li  class="text-[18px]">Build trust and credibility through structure and consistency</li>
+<li  class="text-[18px]">Align the design with modern SaaS and fintech UI standards</li>
+</p>
+  </div>
+
+
+
+    <div class="contar" style="background-color: transparent;"> 
+    <div class="image-wrap mt-22">
+        <img src="asset/WhatsApp Image 2026-01-24 at 3.30.18 PM.jpeg" alt="App Screens" />
+      </div>
+    </div>
+</section>
+
+
+
+</div>
+
+
+
+</body>
+</html>
+ 
+
+<!-- FOOTER FOOTER FOOTER FOOTER FOOTER  -->
+
+
+
+
+ <section class="max-w-full m-auto mt-32 mb-10 flex flex-col justify-between" style=" padding: 20px;">
+
+    <!-- Center Content -->
+      <div class="flex flex-col items-center justify-center text-center px-6 flex-1">
+      
+      <p class="text-xl tracking-wide text-gray-600">
+        Let's Build Something Together
+      </p>
+
+      <h1 class="text-[32px] sm:text-[40px] md:text-[48px] font-semibold mb-10 break-all">
+        meetgoswami842@gmail.com
+      </h1>
+
+      <div class="flex gap-4">
+        <a
+          href="https://www.linkedin.com/in/meet-goswami-b54562143" target="_blank"
+  rel="noopener noreferrer"
+          class="flex items-center gap-1 px-6 py-3 rounded-full border border-gray-300 text-md font-medium hover:bg-gray-100 transition"
+        >
+          LinkedIn 
+                    <img src="asset/arrow.svg " class="w-5 h-5">
+
+        </a>
+
+        <a
+          href="mailto:meetgoswami842@gmail.com"
+          class="flex items-center gap-1 px-6 py-3 rounded-full border border-gray-300 text-md font-medium hover:bg-gray-100 transition" 
+        >
+          Email
+          <img src="asset/arrow.svg " class="w-5 h-5">
+        </a>
+      </div>
+
+    </div>
+
+  </section>
